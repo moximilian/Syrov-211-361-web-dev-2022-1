@@ -2,14 +2,9 @@ body{
   text-align:center;
   padding-left:25px;
   color:rgb(240,240,240);
-  /*font-family:"Verdana";*/
+  font-family:"Oswald";
 }
-@font-face{
-  font-family: "RobotoCondensed"; 
-  src: url("images/RobotoCondensed-Regular.ttf") ; 
-  font-style: normal; 
-  font-weight: normal; 
-}
+
 
 .name{
 	/*padding-left: 50px;*/
@@ -24,7 +19,7 @@ html{
 	
 }
 .avtar{
-	border-radius: 250px;
+	border-radius: 350px;
 	padding-top: 50px;
 }
 img{
@@ -67,4 +62,9 @@ table{
 }
 .bio{
     font-style:italic;
+}
+.copyright{
+     font-size:10px;
+     padding-top:30px;
+
 }
