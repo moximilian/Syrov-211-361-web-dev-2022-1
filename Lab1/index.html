@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab1</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body >
     <div class="bg">
       <!--<img src="images/b2IL086TVms.jpg" alt="">--
     </div>
@@ -18,7 +19,7 @@
         <!--<div class="gmail"><img  src="images/1499955332gmail-icon-logo-png.png" width="75px"height="50px"  ></div>-->
       </div>
 
-       <h1>Максим Сыров</h1>
+       <h1 id="main">Максим Сыров</h1>
        <div class="bio">
          <h3>C/С++ developer and C4D designer </h3>
        </div>
@@ -26,15 +27,15 @@
     <main>
       <div id="menu">
         <ul >
-            <li>Главная страница</li>
-            <li>Контакты</li>
-            <li>Достижения</li>
+            <li >Главная страница</li>
+            <li><a href = "#contacts" style="color: white">Контакты</a></li>
+            <li><a href = "#prizes" style="color: white">Достижения</a></li>
         </ul>
       </div>
       <section>
         
       </section>
-      <h2>Достижения</h2>
+      <h2 id="prizes">Достижения</h2>
       <div class="images">
          <img src="klein_bottle_2.jpg" alt="" width="396"height="204">
          <img src="asos watch final render 2.jpg" alt="" width="396"height="204">
@@ -65,11 +66,12 @@
       <figcaption>Самописный тетрис на С языке</figcaption>
      </figure>
     </main>
-    <footer>
-       <ul>
+    <footer id ="contacts">
+       <ul >
         <li>Телефон: 89876310578</li>
         <li>Почта: surovmax03@gmail.com </li>
        </ul>
+       <a href ="#main" style="color: white">На главную</a>
     </footer>
   </body>
 </html>
