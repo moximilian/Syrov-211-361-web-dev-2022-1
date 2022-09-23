@@ -1,0 +1,70 @@
+body{
+  text-align:center;
+  padding-left:25px;
+  color:rgb(240,240,240);
+  /*font-family:"Verdana";*/
+}
+@font-face{
+  font-family: "RobotoCondensed"; 
+  src: url("images/RobotoCondensed-Regular.ttf") ; 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+.name{
+	/*padding-left: 50px;*/
+	font-size: 16px;
+	
+}
+html{
+	background-color: #31134F;
+	background-image: url(images/b2IL086TVms.jpg),url(images/u6Ohp2tZZQM.jpg) ;
+	background-repeat: no-repeat,repeat;
+    background-position:top,bottom;
+	
+}
+.avtar{
+	border-radius: 250px;
+	padding-top: 50px;
+}
+img{
+	border-radius: 50px;
+}
+/*.bio{
+	padding-bottom:50px;
+}*/
+.gmail{
+padding:100px;
+
+}
+table{
+	border:5px white;
+	align:center;
+}
+.tetris{
+	align:center;
+}
+#menu{
+    width: 100% ;
+    height: 40px;
+}
+#menu .top-menu{
+    margin: 0 auto;
+    align:center;
+}
+#menu ul{
+	text-align: center;
+    margin: 0 auto;
+    padding-left:550px;
+
+}
+#menu li{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+
+}
+.bio{
+    font-style:italic;
+}
