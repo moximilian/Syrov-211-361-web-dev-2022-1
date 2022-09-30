@@ -14,9 +14,22 @@
   <body class="f2">
     
     <header>
-      <h1>Форма обратной связи</h1>
-       <a href="form1.html">Форма аутентифицаии</a><br>
-       <a href="https://moximilian.github.io/Syrov-211-361-web-dev-2022-1/Lab1/index.html">Лабораторная работа №1</a>
+      
+      <div class="avatar" >
+        <img 
+          id="main"
+          src="pics/a7YDgXRU2H4.jpg"
+          style="border-radius: 150px; width: 300; height: 300px"
+        />
+      </div>
+      <h1 >Максим Сыров</h1>
+      
+      <div class="bio">
+        <h3>C/С++ developer and C4D designer</h3>
+      </div>
+       <a href="form1.html" style="color: white">Авторизация</a><br>
+       <a href="https://moximilian.github.io/Syrov-211-361-web-dev-2022-1/Lab1/index.html" style="color: white">Домашнаяя страница</a>
+       <h2>Форма обратной связи</h2>
     </header>
     <main>
       <form class="form2" action="https://httpbin.org/post" method="post">
@@ -29,7 +42,7 @@
          <input type="radio" id="css" name="where_came" value="outsider">
          <label for="css">Из интернета</label><br></br>
         
-        <p><input class="inputcolor"   maxlength="25" size="40" name="addinfo"></p>
+        Если у вас возникло желание связаться со мной:<br> выберите основную тему и расскажи поподробнее мне :)<br>
         <select size="1" style="width:100px;" name="option">
            <option disabled >Выберите опцию</option>
            <option value="1">Жалоба</option>
