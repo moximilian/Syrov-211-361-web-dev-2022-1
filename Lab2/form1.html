@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="f1" >
+    <header>
+       <h1>Форма аутентифицаии</h1>
+       <a href="form2.html">Форма обратной связи</a><br>
+       <a href="https://moximilian.github.io/Syrov-211-361-web-dev-2022-1/Lab1/index.html">Лабораторная работа №1</a>
+
+    </header>
+    <main >
+      
+      <form class="form1" action="https://httpbin.org/post" method="POST">
+        <p><input class="inputcolor"  onfocus="this.value=''" value="Логин" maxlength="25" size="40" name="login"></p>
+        <p><input class="inputcolor" onfocus="this.value='' "value="пароль" type="password" maxlength="25" size="40" name="password" ></p>
+        <p><input type="checkbox" value="запомнить меня">Запомнить меня</p>
+        <p><input type="submit" value="Войти"></p>
+      </form>
+    </main>
+    <footer>
+        <div class="copyright">&copy;Сыров.М.Е, 2022</div>
+    </footer>
+  </body>
+</html>

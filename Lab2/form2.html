@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="f2">
+    
+    <header>
+      <h1>Форма обратной связи</h1>
+       <a href="form1.html">Форма аутентифицаии</a><br>
+       <a href="https://moximilian.github.io/Syrov-211-361-web-dev-2022-1/Lab1/index.html">Лабораторная работа №1</a>
+    </header>
+    <main>
+      <form class="form2" action="https://httpbin.org/post" method="post">
+        <p><input class="inputcolor"  onfocus="this.value=''" value="ФИО" maxlength="25" size="40" name="FIO"></p>
+        <p><input class="inputcolor" onfocus="this.value='' "value="email"  maxlength="25" size="40" name="email" ></p>
+        <div class="moveleft">
+          <input  type="radio" id="html" name="where_came" value="from friend">
+          <label  for="html">От друга</label></br>
+        </div>
+         <input type="radio" id="css" name="where_came" value="outsider">
+         <label for="css">Из интернета</label><br></br>
+        
+        <p><input class="inputcolor"   maxlength="25" size="40" name="addinfo"></p>
+        <select size="1" style="width:100px;" name="option">
+           <option disabled >Выберите опцию</option>
+           <option value="1">Жалоба</option>
+           <option value="2">Пожелание</option>
+           <option value="3">Проблема</option>
+           <option value="4">Совет</option>
+        </select><br><br>
+           <textarea name="text" cols="45" rows="10"></textarea><br>
+        <input type="file" name="f"><br>
+        <input type="checkbox" value="данные" name="gives_agreement" value="yes">Даю согласие на обработку персональных данных<br>
+        <p><input type="submit" value="Отправить" ></p>
+      </form>
+    </main>
+    <footer>
+        <div class="copyright">&copy;Сыров.М.Е, 2022</div>
+    </footer>
+  </body>
+</html>
