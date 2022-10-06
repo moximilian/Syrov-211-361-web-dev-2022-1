@@ -1,0 +1,104 @@
+body{
+    font-family:"Oswald";
+    background-image: url(pics/bg.png);
+    /*background-repeat:no-repeat;*/
+    font-size:20px;
+}
+.linkstyle{
+    color:black;
+    font:bold;
+    font:20;
+}
+.mainjpg{
+    width:300px;
+}
+.mainjpg1{
+    width:500px;
+}
+.mainjpg2{
+    width:250px;
+}
+.logo{
+    width:100px;
+}
+.links{
+    text-align:center;
+}
+.hdr{
+    text-align:center;
+}
+.authorimg{
+    position:absolute;
+    margin-top:400px;
+
+}
+.pic1{
+    width:700px;
+    margin-left:10px;
+}
+.pic2{
+    position:absolute;
+    width:700px;
+    margin-left:20px;
+}
+.pici{
+    width:900px;
+}
+.author{
+    width:300px;
+}
+figure{
+    margin-left:80px;
+}
+.discription{
+
+    position:absolute;
+    margin-top:380px;
+    margin-left:430px;
+    padding-right:20x;
+}
+.mainthing{
+    position:absolute;
+    margin-top:780px;
+}
+.dics{
+    margin-left:70px;
+}
+.copyright{
+    top:2800px;
+    text-align:center;
+    position: absolute;
+    font-size:14px;
+    left:690px;
+}
+.copyright1{
+    top:4550px;
+    text-align:center;
+    position: absolute;
+    font-size:14px;
+    left:690px;
+}
+.logo2{
+    position: absolute;
+    width:100px;
+    top:4600px;
+    left:750px;
+}
+.logo1{
+    position: absolute;
+    width:100px;
+    top:2500px;
+    left:750px;
+}
+.resources{
+    text-align: center;
+    position: absolute;
+    left: 690px;
+    top:2600px;
+}
+.resources1{
+    text-align: center;
+    position: absolute;
+    left: 690px;
+    top:4350px;
+}
