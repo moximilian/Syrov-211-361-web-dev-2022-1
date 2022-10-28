@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Lab4</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <h1>Лабораторная работа 6</h1>
+      <h2>Сыров Максим 211-361</h2>
+      Основы JavaScript.
+    </header>
+    <main>
+      <div class="box">
+        <div class="pluralization">
+          <h3>Pluralization</h3>
+          n: <input type="number" name="value" id="value1" /><br />
+          <button
+            id="plur"
+            onclick="pluraz(document.getElementById('value1').value)"
+          >
+            Find
+          </button>
+          <div id="answers"></div>
+        </div>
+        <div class="fibonach">
+          <h3>N amount of Fibonachi values</h3>
+          n: <input type="number" name="int" id="int" /><br />
+          <button
+            id="plur"
+            onclick="fibon(document.getElementById('int').value)"
+          >
+            Find
+          </button>
+          <div id="answerers"></div>
+        </div>
+        <div class="minvalue">
+          <h3>Minumum integer in value</h3>
+          x: <input type="number" name="value" id="value" /><br />
+          <button
+            id="minv"
+            onclick="MinV(document.getElementById('value').value)"
+          >
+            Find
+          </button>
+          <div id="answer"></div>
+        </div>
+        <div class="NOD">
+          <h3>NOD between 2 integers</h3>
+          x: <input type="number" name="x" id="x" /><br />
+          y: <input type="number" name="y" id="y" /><br />
+          <button
+            id="nod"
+            onclick="NOD(document.getElementById('x').value,document.getElementById('y').value)"
+          >
+            NOD
+          </button>
+          <div id="NOD"></div>
+        </div>
+        <div class="power">
+          <h3>Power x into n</h3>
+          x: <input type="number" name="x" id="x1" /><br />
+          n: <input type="number" name="n" id="n" /><br />
+          <button
+            id="power"
+            onclick="power(document.getElementById('x1').value,document.getElementById('n').value)"
+          >
+            Power
+          </button>
+          <div id="output"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

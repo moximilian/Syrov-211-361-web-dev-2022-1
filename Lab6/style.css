@@ -1,0 +1,46 @@
+body{
+    font-family:"Oswald";
+    /*background-color: rgba(126, 204, 216, 0.826);*/
+    /*background-image: url(img/2.jpg);*/
+    background-image: url(pics/bg.jpg);
+    background-repeat:no-repeat;
+    font-size:20px;
+    text-align:center;
+    height: 100%;
+}
+header{
+    background-color: rgba(126, 204, 216, 0.826);
+    color:beige;
+    text-shadow: 2px 1px black;
+    height: 100%;
+    width: 100%;
+}
+.box{
+    background-color: rgba(32, 32, 214, 0.223);
+    padding-left: 300px;
+    color:beige;
+    text-shadow: 2px 2px black;
+}
+.power{
+    position: absolute;
+    padding-left: 150px;;
+}
+.NOD{
+    position: absolute;
+    padding-left: 400px;
+}
+.minvalue{
+    position: absolute;
+    top:600px;
+    padding-left: 300px;
+}
+.pluralization{
+    position: absolute;
+    top:450px;
+    padding-left: 450px;
+}
+.fibonach{
+    position: absolute;
+    top:450px;
+    padding-left: 150px;
+}
