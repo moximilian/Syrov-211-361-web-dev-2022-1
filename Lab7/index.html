@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/styles.css" />
+    <script src="static/main.js" defer></script>
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <header>
+      <h1>Лабораторная работа 7</h1>
+      <h3>Калькулятор</h3>
+      <p>Сыров Максим 211-361</p>
+    </header>
+    <main>
+      <div class="calc-container">
+        <div class="scren">
+          Результат:
+          <div id="screen"></div>
+        </div>
+        <div class="butons">
+          <div id="buttons">
+            <div class="digits">
+              <button data-action="digit7">7</button>
+              <button data-action="digit8">8</button>
+              <button data-action="digit9">9</button>
+              <button data-action="digit4">4</button>
+              <button data-action="digit5">5</button>
+              <button data-action="digit6">6</button>
+              <button data-action="digit1">1</button>
+              <button data-action="digit2">2</button>
+              <button data-action="digit3">3</button>
+              <button data-action="digit0">0</button>
+              <button data-action="digitp">.</button>
+              <button class="key" style="visibility: hidden"></button>
+            </div>
+            <div class="other">
+              <button data-action="btpl">+</button>
+              <button data-action="btmin">-</button>
+              <button data-action="btmul">*</button>
+              <button data-action="btdel">/</button>
+              <button data-action="btr">(</button>
+              <button data-action="btl">)</button>
+              <button data-action="bteq">=</button>
+              <button data-action="btC">C</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

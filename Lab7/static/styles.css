@@ -1,0 +1,215 @@
+body{
+    font-family:"Oswald";
+    font-size:20px;
+    text-align:center;
+    height: 100%;
+    background-image: url(bg.png);
+    background-repeat:no-repeat;
+}
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.calc-container{
+    position: absolute;
+    left:500px;
+}
+#buttons{
+    position: absolute;
+    top:-250px;
+
+    left:50px;
+}
+.butons{
+    /*position: absolute;
+    border: solid black 5px;*/
+}
+.scren{
+    padding-top:60px;
+    background-color: rgba(207, 47, 47, 0.767);
+    border: solid black 5px;
+    padding-right:390px;
+}
+#screen{
+    size:35px;
+    position:absolute;
+    top:50px;
+    left:200px;
+
+}
+button[data-action ='digit0']{
+    position: absolute;
+    left:0px;
+    top:500px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "digitp"]{
+    position: absolute;
+    top:500px;
+    left:50px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "digit1"]{
+    position: absolute;
+    top:450px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+    }
+button[data-action = "digit2"]{
+        position: absolute;
+        top:450px;
+        left:50px;
+        width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "digit3"]{
+    position: absolute;
+    top:450px;
+    left:100px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "digit4"]{
+    position: absolute;
+    top:400px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+    }
+button[data-action = "digit5"]{
+        position: absolute;
+        top:400px;
+        left:50px;
+        width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "digit6"]{
+    position: absolute;
+    top:400px;
+    left:100px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "digit7"]{
+    position: absolute;
+    top:350px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+    }
+    button[data-action ="digit8"]{
+        position: absolute;
+        top:350px;
+        left:50px;
+        width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "digit9"]{
+    position: absolute;
+    top:350px;
+    left:100px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+
+button[data-action = "bteq"]{
+    position: absolute;
+    top:500px;
+    left:250px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "btC"]{
+    position: absolute;
+    top:500px;
+    left:300px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "btl"]{
+    position: absolute;
+    top:450px;
+    left:300px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action =  "btr"]{
+    position: absolute;
+    top:450px;
+    left:250px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "btmul"]{
+    position: absolute;
+    top:400px;
+    left:300px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "btdel"]{
+    position: absolute;
+    top:400px;
+    left:250px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "btpl"]{
+    position: absolute;
+    top:350px;
+    left:300px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
+button[data-action = "btmin"]{
+    position: absolute;
+    top:350px;
+    left:250px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border-color: aliceblue;
+}
