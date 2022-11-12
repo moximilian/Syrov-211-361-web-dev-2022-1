@@ -88,7 +88,7 @@ function compile(str) {
             }
             stack.pop();
         }
-    }11111`ы`
+    }
     while (stack.length > 0) {
         out.push(stack.pop());
     }
@@ -103,45 +103,47 @@ function compile(str) {
 // Вам нужно реализовать эту функцию
 // (https://ru.wikipedia.org/wiki/Обратная_польская_запись#Вычисления_на_стеке).
 
-function evaluate( input)
+function evaluate(input)
 {
+    
     input = compile(input);
-    let result = 0; //Результат
-    let temp = [] // стек для решения
+    alert('!');
+    let result = 0; 
+    let temp = [] 
 
-    for (let i = 0; i < input.length; i++) //Для каждого символа в строке
+    for (let i = 0; i < input.length; i++) 
     {
-        //Если символ - цифра, то читаем все число и записываем на вершину стека
+    
         if (isDigit(input[i])) 
         {
             let a = "";
 
-            while (!IsDelimeter(input[i]) && !isOperation(input[i])) //Пока не разделитель
+            while (!IsDelimeter(input[i]) && !isOperation(input[i])) 
             {
-                a += input[i]; //Добавляем
+                a += input[i]; 
                 i++;
                 if (i == input.length) break;
             }
-            temp.push(parseFloat(a)); //Записываем в стек
+            temp.push(parseFloat(a)); 
             i--;
         }
-        else if (isOperation(input[i])) //Если символ - оператор
+        else if (isOperation(input[i])) 
         {
-            //Берем два последних значения из стека
+            
             let a = temp.pop(); 
             let b = temp.pop();
 
-            switch (input[i]) //И производим над ними действие, согласно оператору
+            switch (input[i]) 
             { 
                 case '+': result = b + a; break;
                 case '-': result = b - a; break;
                 case '*': result = b * a; break;
                 case '/': result = b / a; break;
             }
-            temp.push(result); //Результат вычисления записываем обратно в стек
+            temp.push(result); 
         }
     }
-    return temp[temp.length-1]; //Забираем результат всех вычислений из стека и возвращаем его
+    return temp[temp.length-1]; 
 }
 
 
