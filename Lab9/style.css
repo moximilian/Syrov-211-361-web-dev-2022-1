@@ -1,0 +1,43 @@
+body{
+    font-family:"Oswald";
+    height:100%;
+}
+#wrap{
+    min-width: 100%;
+}
+.logo{
+    width:300px;
+    position: absolute;
+    left:150px
+
+}
+header{
+    text-align: center;
+    background-color: rgb(167, 162, 162);
+    
+}
+main{
+    padding-bottom:50px;
+    background-color: rgb(208, 206, 206);
+
+}
+footer {
+    text-align: center;
+    background-color: rgb(167, 162, 162);
+    margin-top:-50px;
+    height:50px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    background-color: cadetblue;
+  }
+.ttype{
+    margin-left:150px;
+}
+.creative{
+    width: 90px;
+    display: inline-block;
+    padding:8px;
+    background: white;
+    border:2px solid#ff0000;
+}
