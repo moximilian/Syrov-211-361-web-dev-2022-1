@@ -1,0 +1,15 @@
+body{
+    font-family:"Oswald";
+    height:100%;
+}
+form{
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.urtext{
+    color:red;
+    font-style:italic;
+}
