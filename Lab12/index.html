@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Project Garbage+</title>
+  </head>
+  <body>
+
+    <header>
+      
+      <div class="navbar navbar-dark bg-primary ">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong style="margin-left: 22px">Новый взгляд</strong>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="about text-center">
+        <div class="container">
+          <h1 class="about-heading">О нашем проекте <br> Garbage+</h1>
+          <p class="lead text-half-muted">"Garbage+" - приложение для людей, заботящихся о своем городе. Вы с легкостью можете отсортировать свой мусор, а также узнать о близжайшем пункте приема необходимого мусора вместа с нами!</p>
+        </div>
+      </section>
+      <img src="pic.jpg" alt="" style="width:900px; margin-left: 370px;" class="align-middle">
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <p class="card-text">5 классов мусора!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <p class="card-text">Распознает фото с точностью 98.4%!!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <p class="card-text">Близжайший пункт сдачи на карте!!!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <p class="card-text">Российская разработка!!!!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <div class="card-body">
+                    <p class="card-text">Пункты приема мусора в г. Москва!!!!!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <div class="card-body">
+                    <p class="card-text">Всегда на с вами в вашей руке !!!!!!</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+      <section class="mb-4 mt-5">
+        <h2 class="h1-responsive font-weight-bold text-center text-success my-4">Свяжитесь с нами</h2>
+        <div class="container">
+          <div class="row justify-content-md-center">
+              <div class="col-md-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                      <div class="row mt-3">
+                          <div class="col-md-6">
+                              <div class="md-form mb-0
+                              ">
+                                  <input type="text" id="name" name="name" class="form-control" placeholder="Как вас зовут?" >
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control" placeholder="Ваш адрес электронной почты">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row mt-3">
+                          <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="subject" name="subject" class="form-control" placeholder="О чем вы хотите нам рассказать?">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row mt-3">
+                          <div class="col-md-12">
+
+                              <div class="md-form">
+                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Ваши пожелания"></textarea>
+                                  <label for="message"></label>
+                              </div>
+
+                          </div>
+                      </div>
+                  </form>
+                  <div class="text-center text-md-center">
+                      <a class="btn btn-outline-success my-2 my-sm-0" onclick="document.getElementById('contact-form').onsubmit(ev => ev.preventDefault())">Всего хорошего!</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-5 bg-success">
+    <div class="container">
+        <span class="text-white">Eco-friendly team by 211-361 Maxim Syrov<br> surovmax03@gmail.com</span>
+    </div>
+    </footer>
+
+    <script src="./js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
