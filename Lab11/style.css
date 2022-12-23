@@ -1,0 +1,54 @@
+body{
+    font-family:"Oswald";
+    background-color: rgb(220, 246, 249);
+    
+  }
+  header{
+    text-align: center;
+    background-color: rgb(210, 87, 30);
+  }
+  footer{
+    background-color: rgb(210, 87, 30);
+  }
+ #main_menu { 
+    display: block; 
+    width:25%; 
+    color: #F00 
+}
+ #product_menu { 
+    display: block; 
+    width:25%; 
+    float: left; color: 
+    #F00;
+    text-align: center;
+}
+ a:hover { color: rgb(246, 213, 0) }
+.selectedMenu, .selectedMenu:hover { color: #0FF } 
+.selected{
+    background-color: coral;
+}
+ul.horizontal-list li {
+    display: inline-block;
+    padding: 0 0.5rem;
+    min-width: 12rem;
+    text-align: center;
+}
+ul.vert{
+    display:inline-flex;
+}
+.ttRow{
+    width: 90px;
+    display: inline-block;
+    padding:8px;
+    left:560px;
+    top:-210px;
+    position: relative;
+    background: rgb(220, 246, 249);
+    border:2px solid#ff0000;
+}
+table{
+    border: 1px solid black;
+    position: relative;
+    left:560px;
+    top:-210px;
+}
